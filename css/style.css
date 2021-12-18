@@ -1,0 +1,188 @@
+
+body {
+    background-color: #000;
+}
+
+.header {
+    width: 1366px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 9px solid #03fcff;
+    display: flex;
+}
+
+.grid {
+    max-width: 1178px;
+    margin: auto;
+}
+
+.header_container{
+    margin: auto 91px;
+}
+
+
+.main_background {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -41px;
+}
+
+.main_h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    padding-top: 314px;
+    font-size: 60px;
+    align-content: center;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 10px #000;
+}
+
+.main_h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    font-size: 38px;
+    align-content: center;
+    margin: -5px;
+    text-shadow: 5px 5px 10px #000;
+}
+
+.main_h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    font-size: 17px;
+    align-content: center;
+    text-shadow: 5px 5px 10px #000;
+}
+
+.main_h1 span {
+    color:#03fcff;
+}
+
+.icon {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    font-size: 17px;
+    text-shadow: 5px 5px 10px #000;
+    margin-top: 53px;
+}
+
+.caixa_icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa_meio_icon {
+    width: 485px;
+    height: 100px;
+    background-color: #1e1e1e;
+    margin-top: 200px;
+}
+
+.caixa_filmes {
+    background-color: #1e1e1e;
+    width: 1366px;
+    height: 704px;
+}
+
+.caixa_meio_texto {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.caixa_meio_texto::before {
+ content: "";
+ width: 27px;
+ height: 27px;
+ background-color:  #03fcff;
+ display: block;
+ margin-left: 70px;
+ position: absolute;
+ margin-top: 4px;
+}
+
+.bnt {
+    display: flex;
+    margin-left: 330px;
+    
+}
+
+
+
+.home a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 120px;
+    height: 45px;
+    background-color:  #03fcff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 16px;
+}
+
+
+
+.inscreva-se a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 186px;
+    height: 45px;
+    background-color:  #03fcff;
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.entrar a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 120px;
+    height: 45px;
+    background-color:  #03fcff;
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+
+}
+
+.pesquisar{
+
+    margin-right: 16px;
+
+}
+
+.entrar, .home, .inscreva-se, .pesquisar{
+    margin: auto;
+    
+
+}
+
+
+
+
+
+
+

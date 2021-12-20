@@ -209,6 +209,45 @@ body {
     margin: auto;
 }
 
+.img{
+    border: 14px solid #000;
+    margin-top: 50px;
+}
+
+.carousel-inner {
+    margin-left: 150px;
+}
+
+
+
+.carousel-control-next-icon {
+  background-image: url(../img/seta-direita.png);
+  margin-top: 50px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../img/seta-esquerda.png);
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.carousel-control-next-icon:after {
+  content: '';
+  color: #03fcff;
+}
+
+.carousel-control-prev-icon:after {
+  content: '';
+  color: #03fcff;
+}
+
+.footer {
+    background-color: #000;
+    width: 100px;
+    height: 100px;
+}
+
+
 
 
 

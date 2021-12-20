@@ -9,6 +9,10 @@ body {
     background-color: rgb(0, 0, 0);
     border-bottom: 9px solid #03fcff;
     display: flex;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    box-shadow: 5px 5px 10px #000;
 }
 
 .grid {
@@ -25,7 +29,7 @@ body {
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: -41px;
+    margin-top: 95px;
     
 }
 
@@ -112,14 +116,14 @@ body {
  display: block;
  margin-left: 70px;
  position: absolute;
- margin-top: 4px;
+ margin-top: 8px;
 }
 
 .bnt {
     display: flex;
     margin-left: 330px;
-    
 }
+
 
 
 
@@ -134,10 +138,25 @@ body {
     background-color:  #03fcff;
     display: flex;
     align-items: center;
-    text-align: center;
     margin-right: 16px;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.home a:hover{
+    background-color:  #ffd104;
+    color: #000;
+}
+
+.entrar a:hover{
+    background-color:  #ffd104;
+    color: #000;
+}
+
+.inscreva-se a:hover{
+    background-color:  #ffd104;
+    color: #000;
 }
 
 .inscreva-se a{
@@ -153,7 +172,8 @@ body {
     align-items: center;
     margin-right: 16px;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    transition: 0.3s;
 }
 
 .entrar a{
@@ -168,24 +188,25 @@ body {
     display: flex;
     align-items: center;
     margin-right: 16px;
-    text-align: center;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    transition: 0.3s;
     
 }
 
 
 
 .pesquisar{
-
     margin-right: 16px;
+    transition: 0.3s;
+}
 
+.pesquisar:hover{
+    margin-right: 16px;
 }
 
 .entrar, .home, .inscreva-se, .pesquisar{
     margin: auto;
-    
-
 }
 
 

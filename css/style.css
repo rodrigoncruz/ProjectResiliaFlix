@@ -27,6 +27,7 @@ body {
 
 .main_background {
     background-image: url(../img/background.png);
+    width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 95px;
@@ -94,7 +95,7 @@ body {
 
 .caixa_filmes {
     background-color: #1e1e1e;
-    width: 1366px;
+    width: 100%;
     height: 704px;
 }
 
@@ -241,7 +242,7 @@ body {
 
 .footer {
     background-color: #000;
-    width: 100px;
+    width: 100%;
     height: 100px;
 }
 

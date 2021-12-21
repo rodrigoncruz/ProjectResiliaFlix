@@ -1,0 +1,94 @@
+
+
+body{
+    background-color: #020e0eee;
+    height: 100%;
+    color: rgb(241, 237, 237);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+#img{
+    text-align: center;
+    padding-top: 130px;
+}
+#texto{
+    text-align: center;
+    font-family:'DM Mono', monospace;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -2px;
+    font-size: 18px;
+    
+}
+#btns{
+    text-align: center;
+    
+}
+.text{
+    border: none;
+    width: 375px;
+    height: 55px;
+    color: rgba(182, 179, 179, 0.89);
+    font-family:'Lato', sans-serif;
+    font-size: 22px;
+    background: rgba(12, 12, 12, 0.726);
+    border-radius: 0.4em;
+    padding: 5px;
+
+}
+#btnEntrar{
+    width: 375px;
+    font-weight: bold;
+    height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000;
+    background:#03fcff;
+    border: none;
+    border-radius: 0.2em;
+    transition: 0.3s;
+}
+
+#btnEntrar:hover{
+    background-color:  #ffd104;
+    color: #000;
+}
+#cadastr{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(197, 193, 193);
+    
+}
+
+#esqueciSe{
+    font-family:'Lato', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(197, 193, 193);
+}
+.text::placeholder{
+    color: rgb(70, 68, 68)
+}
+#pe{
+    background: rgb(19, 18, 18);
+    text-align: center;
+    flex-shrink: 0;
+    padding-bottom: 10px;
+}
+#logoPe{
+    padding-top: 10px;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+}
+#pPe{
+    text-align: center;
+    font-family:'Lato', sans-serif;
+    font-size: 12px;
+}
+
+.box-form {
+    margin:auto;
+    padding-top: 180px;
+}
